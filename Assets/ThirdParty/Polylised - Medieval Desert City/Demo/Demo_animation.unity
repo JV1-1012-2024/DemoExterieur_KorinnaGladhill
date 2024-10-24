@@ -26112,7 +26112,7 @@ GameObject:
   - component: {fileID: 557907110}
   - component: {fileID: 557907109}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: BoutonPersonnage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27503,14 +27503,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586282905}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.07863064, y: 0.7056258, z: -0.07928595, w: -0.6997309}
+  m_LocalRotation: {x: -0.016098196, y: 0.15146409, z: -0.110498354, w: -0.98213524}
   m_LocalPosition: {x: 223.03, y: 46.63, z: 68.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1568413505}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 3.732, y: -17.133, z: 12.276}
 --- !u!1001 &589910206
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32459,7 +32459,7 @@ GameObject:
   - component: {fileID: 710276725}
   - component: {fileID: 710276724}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: BoutonCapsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32561,6 +32561,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 459148251}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -49105,7 +49117,7 @@ MonoBehaviour:
   m_UpdateMethod: 2
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
-    m_Style: 1
+    m_Style: 0
     m_Time: 2
     m_CustomCurve:
       serializedVersion: 2
@@ -89211,7 +89223,7 @@ GameObject:
   - component: {fileID: 2058440211}
   - component: {fileID: 2058440210}
   m_Layer: 5
-  m_Name: Button
+  m_Name: BoutonBateau
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
